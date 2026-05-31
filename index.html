@@ -183,7 +183,8 @@ nav.scrolled{height:60px;box-shadow:0 2px 20px rgba(201,168,76,0.1);}
 .doc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:48px;}
 .doc-card{border:1px solid var(--border);border-radius:3px;overflow:hidden;transition:all .4s;cursor:pointer;}
 .doc-card:hover{box-shadow:0 8px 32px rgba(201,168,76,.13);transform:translateY(-5px);border-color:var(--gold);}
-.doc-img{height:360px;background:var(--green-pale);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;}
+.doc-img{height:420px;background:var(--green-pale);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;}
+.doc-img img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block;}
 .doc-ph{font-family:'Cormorant Garamond',serif;font-size:60px;font-weight:300;color:var(--green);opacity:.18;}
 .doc-ov{position:absolute;inset:0;background:linear-gradient(to top,rgba(45,80,22,.58),transparent);display:flex;align-items:flex-end;padding:16px;opacity:0;transition:opacity .4s;}
 .doc-card:hover .doc-ov{opacity:1;}
@@ -613,7 +614,8 @@ footer{background:var(--text);padding:56px 80px 30px;}
   /* DOCTORS */
   .doctors{padding:52px 22px;}
   .doc-grid{grid-template-columns:1fr;gap:16px;margin-top:32px;}
-  .doc-img{height:190px;}
+  .doc-img{height:240px;min-height:240px;}
+  .doc-img img{width:100%;height:100%;object-fit:cover;display:block;}
 
   /* TESTIMONIALS */
   .testimonials{padding:52px 22px;}
