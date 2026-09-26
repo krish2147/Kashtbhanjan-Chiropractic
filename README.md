@@ -1,1 +1,1 @@
-# Khastbhanjan-Chiropractic
+# Kashtbhanjan-Chiropractic
